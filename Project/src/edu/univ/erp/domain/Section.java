@@ -1,18 +1,18 @@
 package edu.univ.erp.domain;
 
 public class Section {
-    private int course_id;
-    private int instructor_id;
-    private String day_time;
+    private int courseId;
+    private int instructorId;
+    private String dayTime;
     private String room;
     private int capacity;
     private String semester;
     private int year;
 
-    public Section(int course_id,  int instructor_id, String day_time, String room, int capacity, String semester, int year) {
-        this.course_id = course_id;
-        this.instructor_id = instructor_id;
-        this.day_time = day_time;
+    public Section(int courseId,  int instructorId, String dayTime, String room, int capacity, String semester, int year) {
+        this.courseId = courseId;
+        this.instructorId = instructorId;
+        this.dayTime = dayTime;
         this.room = room;
         this.capacity = capacity;
         this.semester = semester;
@@ -20,15 +20,15 @@ public class Section {
     }
 
     public int getCourse_id() {
-        return course_id;
+        return courseId;
     }
 
     public int getInstructor_id() {
-        return instructor_id;
+        return instructorId;
     }
 
     public String getDay_time() {
-        return day_time;
+        return dayTime;
     }
 
     public String getRoom() {
@@ -47,16 +47,16 @@ public class Section {
         return year;
     }
 
-    public void setCourse_id(int course_id) {
-        this.course_id = course_id;
+    public void setCourseId(int courseId) {
+        this.courseId = courseId;
     }
 
-    public void setInstructor_id(int instructor_id) {
-        this.instructor_id = instructor_id;
+    public void setInstructorId(int instructorId) {
+        this.instructorId = instructorId;
     }
 
-    public void setDay_time(String day_time) {
-        this.day_time = day_time;
+    public void setDayTime(String dayTime) {
+        this.dayTime = dayTime;
     }
 
     public void setRoom(String room) {
